@@ -1,0 +1,99 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+}
+.half-width img {
+  width: 70%;
+  height: 500px;
+}
+.hero-title {
+  font-size: 60px;
+  border-left: 5px solid orangered;
+  padding-left: 5px;
+  font-family: "Noto Sans", sans-serif;
+}
+.h-title {
+  color: orange;
+}
+.hero-p {
+  font-size: 25px;
+  line-height: 1.1;
+  color: rgb(55, 52, 52);
+}
+.button {
+  text-decoration: none;
+  background-color: rgb(245, 111, 96);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.hero-p {
+  font-size: 18px;
+}
+.mission-title {
+  text-align: center;
+  font-size: 50px;
+}
+.mission-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 100px;
+}
+.container {
+  width: 33.33%;
+  margin: 0px 40px;
+  border-radius: 10px;
+}
+.container img {
+  height: 200px;
+}
+.ct-1 {
+  background-color: gainsboro;
+  padding: 20px;
+}
+.ct-2 {
+  background-color: rgb(235, 221, 221);
+  padding: 20px;
+}
+.ct-3 {
+  background-color: bisque;
+  padding: 20px;
+}
+.developed-section {
+  display: flex;
+  margin-top: 60px;
+}
+.dev-width1 {
+  width: 45%;
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: left;
+  margin-left: 5%;
+}
+.dev-width2 {
+  width: 55%;
+  margin-right: 5%;
+  margin-top: 30px;
+}
+.dev-width1 img {
+  width: 65%;
+  height: 430px;
+  margin-left: 20%;
+}
+.dev-title {
+  font-size: 40px;
+}
+.dev-p {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 20px;
+}
